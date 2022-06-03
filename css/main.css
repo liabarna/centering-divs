@@ -106,8 +106,26 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
   font-size: 16px;
-  height: 100%;
-  background: #202020;
+  background: #D69999;
+  color: #6F2100;
+}
+
+header,
+footer,
+main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header {
+    font-size: 1.5em;
+}
+
+main p {
+    font-size: 1.8em;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1.5em;
 }
 
 .wrapper {
@@ -115,11 +133,12 @@ body {
   font-weight: 400;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 2em;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #6F2100;
   line-height: 1.5em;
   font-size: 1.25em;
   height: 300px;
@@ -133,12 +152,20 @@ body {
 }
 
 .div-1 {
-    border-right: 1px solid #808080;
+    border-right: 1px solid #573300;
 }
 
 .div-2 {
-    border-right: 1px solid #808080;
+    border-right: 1px solid #573300;
 }
+
+footer {
+    border-top: 1px solid lightgray;
+}
+
+footer i {
+    padding: 30px 20px 0 0;
+  }
 
 
 
